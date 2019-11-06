@@ -1,0 +1,21 @@
+Topic 2: #PB#IN 
+Topic 25: 醒来_1 状态_1 #PB#CO 
+Topic 18: 失控_1 #PB#CO 
+Topic 16: 空间_1 天_1 #PB#CO 
+Topic 25: 发生_1 不一定_1 预见性_1 #PB#CO 
+Topic 24: 潜意识_1 #PB#CO 
+Topic 17: 表示_1 理解_1 #PB#IN 
+Topic 24: 暗示_1 #PB#CO 
+Topic 2: 同意_1 楼上_1 迷信_1 #PB#IN 
+Topic 16: 出_1 原因_1 下次_1 不再_1 好_1 #PB#CO 
+Topic 6: 普通_1 小孩_1 学习_1 进行_1 特殊_1 培训_1 #PB#CO 
+Topic 6: 遗传_1 决定_1 基础_0 笨_0 鸟_1 飞_1 勤奋_1 补_1 拙_1 智力_1 提高_1 影响_1 #PB#CO 
+Topic 23: 合理_1 发泄_1 出来_1 #PB#CO 
+Topic 5: #PB#CO 
+Topic 2: 绝对_1 #PB#IN 
+Topic 24: 心理_1 暗示_1 #PB#CO 
+Topic 2: 出_1 大部分_1 共同点_1 #PB#CO 
+Topic 25: 梦_1 梦话_1 没关系_1 #PB#CO 
+Topic 2: 片面_1 测验_1 断定_1 #PB#IN 
+Topic 23: 同学_1 交流_1 运动_1 放松_1 什么的_1 #PB#CO 
+Topic 2: 错误_1 #PB#IN 

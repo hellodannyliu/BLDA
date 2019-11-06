@@ -1,0 +1,15 @@
+Topic 16: 当然_1 条件反射_1 学习_1 条件反射_1 #PB#CO 
+Topic 1: 认为_1 记得_1 #PB#IN 
+Topic 1: 不一定_0 社会_1 成功_1 复杂_1 因素_1 #PB#IN 
+Topic 8: 可能_1 努力_1 得到_1 #PB#IN 
+Topic 1: 小学_1 方法_0 不同_1 性格_1 不同_1 角度_1 不同_1 #PB#CO 
+Topic 13: 对话_0 听_1 错_1 #PB#CO 
+Topic 28: 改变_1 表面_1 见_1 #PB#CO 
+Topic 12: 教育_1 问题_1 咯_1 #PB#CO 
+Topic 1: #PB#IN 
+Topic 13: 蜘蛛_1 结_1 网_1 天生_1 学习_1 #PB#CO 
+Topic 8: 同意_1 楼上_1 #PB#IN 
+Topic 0: 难以_1 接受_1 #PB#CO 
+Topic 16: 重合_1 部分_1 特点_1 核心_1 矛盾_0 #PB#CO 
+Topic 9: 梦_1 体现_1 #PB#CO 
+Topic 13: 自我_1 实际_0 情况_1 区分_1 #PB#CO 

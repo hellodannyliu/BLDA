@@ -1,0 +1,10 @@
+Topic 9: 梦_1 话_1 内容_1 梦_1 内容_1 生活_1 相关_1 #PB#CO 
+Topic 9: 见_1 认识_1 身份_0 出现_1 #PB#IN 
+Topic 27: 不一定_1 情_1 商_1 低_1 #PB#IN 
+Topic 27: 一般_1 不再_1 年轻_0 机敏_1 #PB#IN 
+Topic 12: 一般_1 心理学_1 解释_1 #PB#CO 
+Topic 27: 智商_1 不一定_1 情_1 商_1 #PB#CO 
+Topic 8: 书_1 创造力_1 测量_1 准确_1 #PB#CO 
+Topic 18: #PB#CO 
+Topic 24: 影响_1 遗忘_1 原因_1 #PB#CO 
+Topic 6: 情绪_1 表达_1 性质_1 #PB#CO 

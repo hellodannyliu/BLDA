@@ -1,174 +1,86 @@
-Topic 0: thirsty_1 beer_1 sque_0 singapore's_0 latest_0 beer_1 shrine_0 emmanuel_1 stroobant_1 #PB#PO 
-Topic 0: expect_0 wok_1 barrel_1 #PB#ME 
-Topic 0: love_0 mod_1 s'pore_1 cuisine_1 shaping_1 eh_0 singapore_1 lah_0 #PB#PO 
-Topic 0: short_0 break_0 back_0 grind_0 garden_1 eden_0 modern_0 european_1 beautiful_0 #PB#PO 
-Topic 0: pastor_1 city_0 harvest_0 church_0 sighted_1 garden_1 eden_0 apt_0 #PB#PO 
-Topic 4: compliment_1 desiree_1 lady_1 inspired_0 pizza_0 #PB#RE 
-Topic 3: here's_1 welcoming_1 twitterville_1 #PB#ME 
-Topic 0: surely_1 duck_1 foie_1 gras_1 sourced_0 locally_1 force-fed_1 ducks_0 #PB#RE 
-Topic 3: owned_0 folks_1 villa_1 samadhi_1 #PB#RE 
-Topic 3: cuisine_1 eco-friendly_1 venue_1 completely_1 surrounded_1 lush_1 foliage_1 #PB#RE 
-Topic 1: recycled_1 wood_1 sourced_1 fr_0 malay_0 kampungs_1 wood_1 bamboo_0 furn_1 crafted_1 native_1 orang_1 asli_1 community_0 #PB#RE 
-Topic 0: eco_1 located_1 labrador_1 park_1 #PB#RE 
-Topic 0: amazed_1 eco_1 gourmet_1 cafe_1 opened_0 january_0 escaped_1 media_1 attention_0 piece_0 bali_1 sgp_0 #PB#PO 
-Topic 4: love_1 join_0 experiment_1 #PB#RE 
-Topic 4: guess_0 people_1 money_0 afford_1 poor_0 folks_1 sleeping_1 streets_0 wd_1 love_1 trade_1 time_1 #PB#RE 
-Topic 3: wow_0 sounds_0 delish_1 #PB#RE 
-Topic 3: imagine_0 peachy_1 taste_0 profile_0 magical_0 leaves_1 #PB#RE 
-Topic 4: btw_0 le_0 chateaubriand_1 highest_1 ranking_1 french_0 restaurant_1 world_1 #PB#PO 
-Topic 4: le_0 chateaubriand_1 inaki_1 aizpitarte_1 dressing_0 life_1 editor_0 business_0 times_0 #PB#PO 
-Topic 0: brinj_1 patrick_0 zhang_1 defunct_1 azhang_0 cheong_1 chin_0 nam_0 road_1 #PB#PO 
-Topic 3: love_1 clang_1 excellent_1 profile_0 wolfgang_1 puck_0 celebrity_0 chef_1 independent_0 #PB#RT 
-Topic 3: shanghai's_1 historic_1 bund_1 #PB#RE 
-Topic 0: sampling_1 la_1 barca's_1 refined_0 italian_1 fare_0 gauge_1 restaurant_1 merits_1 packed_0 house_1 #PB#RE 
-Topic 3: hey_1 dashing_0 check_0 report_1 back_0 tomorrow_0 morning_0 #PB#ME 
-Topic 3: sharing_1 silver_1 kris_0 stories_0 feature_1 destinations_1 tweet_0 fare_0 promotions_0 #PB#RE 
-Topic 3: heard_1 antica_1 trattoria_1 botteganova_1 michele_1 sorrentino_1 sold_1 star_1 restaurant_1 recently_0 opened_0 la_0 barca_0 singapore_1 #PB#PO 
-Topic 3: congrats_0 cut_0 lunch_0 dinner_0 #PB#RE 
-Topic 1: place_0 time_0 happy_1 birthday_1 mervyn_1 #PB#RE 
-Topic 4: comment_0 le_0 chateaubriand_1 haven't_0 #PB#RE 
-Topic 3: article_1 sidney_1 morning_1 harald_1 #PB#RT 
-Topic 3: bunch_0 big_0 chefs_1 start_0 taking_0 bloody_0 #PB#RT 
-Topic 0: speechless_1 view_1 room_1 isfjorden_1 beautiful_0 places_0 planet_1 #PB#RE 
-Topic 1: saturne_1 compare_0 l'agape_1 substance_1 passage_1 rino_1 #PB#RE 
-Topic 3: stress_0 test_0 cramping_1 incredible_0 meals_1 night_0 trip_1 paris_0 #PB#PO 
-Topic 4: managed_0 snag_0 table_0 alain_1 ducasse_1 au_0 plaza_1 athenee_0 forward_0 essential_0 menu_0 apparently_0 stripped_0 ostentation_1 #PB#PO 
-Topic 3: gosh_0 easy_0 chart_1 read_0 #PB#RE 
-Topic 1: substance_1 saturne_1 complex_0 #PB#RE 
-Topic 2: omg_1 photo_0 write_0 piece_0 #PB#PO 
-Topic 3: live_1 shrimp_1 shell_1 ouch_0 #PB#RE 
-Topic 0: kilo_1 amazing_0 gps_0 strange_1 venue_1 industrial_1 building_0 #PB#RE 
-Topic 3: worry_0 fan_1 base_1 followers_0 #PB#RE 
-Topic 2: la_1 bigarrade_1 good_0 #PB#PO 
-Topic 3: paul_0 cafe_0 restaurant_1 france_1 coming_0 ngee_1 ann_1 city_0 #PB#RT 
-Topic 0: kilo_1 kampong_0 bugis_1 #PB#PO 
-Topic 0: amazing_0 italian_1 restaurants_1 sprouting_0 island_0 #PB#RE 
-Topic 3: amen_0 btw_0 found_0 party_1 spot_0 #PB#RE 
-Topic 3: otto_1 to-eat_0 list_0 made_0 #PB#RE 
-Topic 4: la_1 barca_0 review_1 #PB#ME 
-Topic 0: kilo_1 kampong_0 bugis_1 interesting_0 food_0 sgp_0 find_0 year_0 guess_0 location_1 #PB#PO 
-Topic 0: joel_1 robuchon_0 sgp_0 sept_0 time_1 robuchon's_1 menu_1 decouverte_0 #PB#PO 
-Topic 3: wonders_1 santamaria's_1 thoughts_0 lima_1 declaration_1 laughing_0 ass_0 somewh_1 #PB#RT 
-Topic 3: wonders_1 santamaria's_1 thoughts_0 lima_1 declaration_1 laughing_0 ass_0 somewh_1 #PB#RT 
-Topic 3: cnn_1 cafe_0 opens_0 seoul_1 cnngo.com_1 #PB#PO 
-Topic 0: stopped_0 school_1 write_0 book_0 #PB#PO 
-Topic 3: fair_0 bit_0 print_0 morning_0 notion_1 foods_1 aphrodisiacs_1 cobblers_1 #PB#RT 
-Topic 0: daughter_0 texture_0 zucchini_1 pancake_1 soggy_1 hashbrown_1 salt_1 pepper_0 nice_0 #PB#RE 
-Topic 0: zucchini_1 pancake_1 letdown_1 kilo_1 #PB#RE 
-Topic 0: spot_0 fancy_0 finding_0 restaurant_1 tucked_1 industrial_1 bldg_1 blah_1 turned_0 wow_0 esp_0 seafood_1 ceviche_1 arrived_0 #PB#RE 
-Topic 3: here's_1 sgp_0 chef_0 cares_0 environment_1 tho_0 make_1 lima_1 #PB#ME 
-Topic 3: thierry_1 marx_1 sur_1 mesure_0 list_0 #PB#RE 
-Topic 3: realized_0 mop_1 geroge_1 v)_1 month_0 guess_0 #PB#RE 
-Topic 3: rich_0 heritage_1 luxury_1 shophouse_1 rooms_0 lovely_0 peranakan_0 touch_0 #PB#RT 
-Topic 3: heard_1 credit_1 card_0 table_0 booking_0 #PB#RE 
-Topic 0: wok_1 barrel_1 eco_1 gourmet_1 cafe_1 la_0 barca_0 kilo_1 restaurant_1 #PB#PO 
-Topic 0: italian_1 restaurant_1 town_1 amo_1 ang_1 moh_1 goodness_0 sake_0 #PB#PO 
-Topic 0: swing_1 sgp_0 herbal_1 peppery_1 rendition_0 bat_1 kut_1 teh_0 #PB#RE 
-Topic 3: hear_0 roar_1 f1_0 engines_1 home_0 tracks_0 #PB#PO 
-Topic 3: breaking_0 news_1 miss_0 ebbe_1 #PB#RE 
-Topic 3: ebbe_1 vollmer_1 jaan_0 chef_1 opened_0 resto_1 malmo_1 sweden_0 brother_0 www.vollmers.nu_1 #PB#RT 
-Topic 3: mind_0 translating_1 tweet_0 #PB#RE 
-Topic 3: understand_0 tweet_0 carries_1 familiar_0 chef_1 luv_0 #PB#RE 
-Topic 0: caprese_1 naturally_0 alluring_1 #PB#RE 
-Topic 0: capri_1 singapore_1 italian_1 eatery_1 brought_0 iannones_0 #PB#PO 
-Topic 0: chef_0 guide_0 york_1 #PB#ME 
-Topic 0: singapore_1 we'll_0 founder_0 bak_1 kut_1 teh_0 #PB#RE 
-Topic 3: checking_0 amber_1 landmark_1 mandarin_1 #PB#RE 
-Topic 0: delighted_1 discover_1 fab_1 brasserie_1 singapore_1 dempsey_1 brasserie_1 excellent_1 onion_1 soup_1 tarte_0 tartin_0 #PB#PO 
-Topic 2: shashlik_1 borsch_1 soup_1 lah_1 #PB#RE 
-Topic 4: easily_1 judge_0 character_0 man_0 treats_1 goethe_1 #PB#RT 
-Topic 3: give_0 credit_1 photographer_0 #PB#RE 
-Topic 0: posted_0 photos_0 facebook_0 album_0 dempsey_1 brasserie_1 #PB#PO 
-Topic 3: tears_1 found_0 chef_1 ebbe_1 vollmer_1 jann_1 chef_1 here's_1 toast_1 dear_0 ebbe_1 opening_0 resto_1 #PB#ME 
-Topic 3: omg_0 sounds_0 deliciously_1 ott_1 #PB#RE 
-Topic 0: check_0 price_0 greenwood_1 market's_1 oyster_1 nite_0 costly_0 bet_1 #PB#RE 
-Topic 0: return_0 lukes_1 #PB#RE 
-Topic 0: yup_0 pls_0 include_0 lukes_1 heard_0 costly_0 #PB#RE 
-Topic 0: gosh_0 lukes_1 travis_1 masiero_1 #PB#RE 
-Topic 0: baba_1 dining_1 lounge_0 sri_1 panwa_1 sunset_0 drinks_0 #PB#RE 
-Topic 4: slayed_1 jimmy_1 monkey_1 cafe_0 #PB#RE 
-Topic 0: fall_0 sick_0 pays_1 restaurateur's_1 friend_1 #PB#RE 
-Topic 0: singaporean_0 starbucks_1 comfy_0 sofas_1 coffee_1 #PB#RE 
-Topic 0: loysel's_1 toy_0 cafe_1 highlanders_1 oriole_0 cafe_1 #PB#RE 
-Topic 0: behalf_0 cnngo_1 sgp_0 editor_0 local_1 blogs_0 read_0 regularly_1 #PB#PO 
-Topic 3: happily_0 married_0 land_0 line_0 worked_0 #PB#RE 
-Topic 1: wow_0 quick_0 lightning_0 drinks_0 #PB#RE 
-Topic 4: wow_0 met_0 love_1 twitter_0 emails_1 internet_0 remember_1 hp_0 ancient_1 hor_0 #PB#RE 
-Topic 4: meant_0 plaza_1 atheness_0 au_0 alain_1 ducasse_1 #PB#RE 
-Topic 0: heard_0 plaza_1 athenee's_1 stripped_0 essential_0 menu_1 #PB#RE 
-Topic 3: finalized_1 paris_0 itinerary_1 #PB#RE 
-Topic 1: time_0 indulgence_1 l'agape_1 substance_1 hottest_0 debut_1 paris_0 #PB#RE 
-Topic 0: wahoo_1 ferran_0 adria_1 dipping_1 spoon_1 mulligatawny_1 soup_1 funny_0 captured_0 #PB#RE 
-Topic 4: table_0 pls_0 le_0 chateaubriand_1 heard_1 mixed_1 comments_1 #PB#RE 
-Topic 0: time_1 put_0 la_1 barca_0 fast_0 dial_1 #PB#PO 
-Topic 2: longer_0 le_0 meurice_1 #PB#RE 
-Topic 0: thought_0 meii_1 sushi_1 value-for-$_1 omakase_1 sgp_0 discovered_1 hinoki_0 lawrence_0 chia_0 brother_0 ronnie_1 chia_0 tatsuya_1 #PB#PO 
-Topic 3: great_0 brain_0 cancer_0 support_0 fundraising_1 page_0 cure_1 life_0 foundation_0 walk4life'http://t_1 #PB#RT 
-Topic 3: posted_0 photos_0 facebook_0 album_0 hinoki_0 #PB#PO 
-Topic 0: cup_1 kopi_1 luwak_1 kopi_1 beans_1 #PB#PO 
-Topic 0: purchase_1 kopi_1 luwak_1 #PB#PO 
-Topic 0: love_1 gajalee_1 specialize_0 seafood_1 haven't_0 meats_0 #PB#RE 
-Topic 0: antoinette_0 penhas_1 road_1 intimate_0 venue_1 chill_0 coffee_1 pastries_1 strange_1 location_1 singapore_1 casket_1 #PB#PO 
-Topic 0: triple_0 three's_1 japanese-themed_1 buffet_0 complete_0 tourist_1 trap_0 #PB#PO 
-Topic 3: heard_0 toby's_1 estate_0 science_0 lab_0 #PB#RE 
-Topic 3: borrow_0 ur_0 drill_0 #PB#RE 
-Topic 4: smiles_1 managed_0 snag_0 table_0 pierre_1 gagnaire_1 #PB#PO 
-Topic 1: celebrity_0 photography_1 based_0 sweden_0 #PB#RE 
-Topic 0: english_1 chinese_0 time_1 #PB#RE 
-Topic 4: fine_0 print_0 understand_1 brazillian_1 #PB#RE 
-Topic 4: miles_1 mailed_1 today_0 questions_0 fwd_1 reply_0 #PB#RE 
-Topic 2: bring_0 ur_0 wife_0 antoinette_0 love_1 #PB#RE 
-Topic 3: fair_0 xchange_1 dpding_1 heavy_0 duty_1 ur_0 drill_0 lol_0 #PB#RE 
-Topic 0: coffee_1 joints_1 checkout_1 #PB#RE 
-Topic 0: cockcroach_1 sighted_1 italian_1 restaurant_1 nite_0 floor_1 plate_1 #PB#PO 
-Topic 0: chinatown_1 lots_0 restaurants_1 craig_1 keong_0 saik_0 #PB#RE 
-Topic 3: shd_0 forage_1 ebbe_1 #PB#RE 
-Topic 0: abt_0 duxton_1 hill_0 bukit_1 timah_0 #PB#RE 
-Topic 1: happy_1 offer_1 suggestions_1 #PB#RE 
-Topic 0: beautiful_0 tea_1 salon_1 equally_1 gorgeous_0 pastries_1 match_0 #PB#RE 
-Topic 2: guess_0 hear_0 fr_1 back_0 #PB#RE 
-Topic 2: awaiting_1 ur_1 reply_0 #PB#RE 
-Topic 0: hotel_0 fort_1 canning_0 gorgeous_0 rooms_0 marble-clad_1 bathrooms_0 soak-with-a-view_1 #PB#PO 
-Topic 0: unusual_0 earthquake_1 bali_1 running_0 tweeting_0 #PB#RE 
-Topic 1: hoho_1 eastern_1 bias_0 #PB#RE 
-Topic 0: photos_0 earthquake_1 rattles_0 bali_1 #PB#RT 
-Topic 3: wad_1 kidding_0 wldn't_1 expect_0 translate_1 entire_0 document_0 #PB#RE 
-Topic 3: ramen_1 achieves_0 celebrity_0 status_0 momofuku_1 spoilt_1 singapore_1 ramen_1 shores_1 #PB#RE 
-Topic 0: food_1 umm_0 over-rated_1 #PB#RE 
-Topic 0: posted_0 photos_0 facebook_0 album_0 pantry_1 stables_1 #PB#PO 
-Topic 0: amount_0 buy_1 lovely_0 dinner_0 singapore_0 #PB#RE 
-Topic 3: pat_1 bruno_1 resto_1 critic_1 forced_0 sun-times_1 recently_0 brain_0 cancer_0 excellent_1 read_0 #PB#RT 
-Topic 0: dying_0 back_0 btw_0 nearby_0 casket_1 haven_1 #PB#RE 
-Topic 2: guess_0 hotel_1 sgp_0 literally_0 row_0 fr_1 bath_0 tub_0 bed_0 #PB#PO 
-Topic 3: cool_0 wait_0 read_0 #PB#RE 
-Topic 4: hey_1 completed_1 story_0 dun_0 reply_1 #PB#RE 
-Topic 0: appalling_0 owned_0 emmanuel_1 stroobant_1 #PB#RE 
-Topic 0: exceptional_1 find_0 piece_0 bali_1 singapore_1 #PB#PO 
-Topic 0: chef_0 armin_0 leitgeb_1 les_1 amis_1 restaurants_1 #PB#PO 
-Topic 0: told_1 good_0 coffee_1 joints_1 check_0 time_1 #PB#RE 
-Topic 0: japanese/russian_1 taste_0 wise_0 #PB#RE 
-Topic 4: bring_0 kids_1 staycation_1 sgp_0 #PB#PO 
-Topic 0: read_0 family_0 friendly_1 hotels_0 sgp_0 cnngo_1 #PB#RE 
-Topic 0: amazing_0 dining_1 room_1 paris_0 la_0 cuisine_1 le_1 royal_0 monceau_0 designed_1 philip_1 stark_0 #PB#PO 
-Topic 0: room_1 view_0 eiffel_1 tower_1 shangrila_1 paris_0 cool_0 #PB#PO 
-Topic 4: interesting_0 conclusion_1 met_0 pierre_1 gagnaire_1 yesterday_0 berlin_0 #PB#RE 
-Topic 0: steve_1 jobs_1 sister_1 reveals_1 words_0 #PB#RT 
-Topic 3: breaking_0 news_1 sph_1 buys_1 acp_0 magazines_1 #PB#PO 
-Topic 0: light_0 end_0 tunnel_0 flickering_1 #PB#PO 
-Topic 2: gg_1 home_0 hour_1 chore_1 head_0 exploding_1 #PB#PO 
-Topic 3: faith_0 belief_1 god_0 belief_1 god_0 amen_0 #PB#ME 
-Topic 0: keeping_0 scores_0 bedok_1 reservoir_1 blk_1 686b_1 woodlands_1 #PB#RT 
-Topic 4: wanted_1 morning_1 productively_1 tired_1 cold_1 sleep_1 #PB#PO 
-Topic 3: watch_1 video_1 nag_1 #PB#PO 
-Topic 2: ctw_1 damn_0 annoying_1 commenting_0 personal_0 hygiene_1 #PB#PO 
-Topic 4: rains_0 hardest_1 people_1 deserve_0 sun_0 sighhh_1 true_0 #PB#ME 
-Topic 4: friend_1 quiet_1 means_0 #PB#RT 
-Topic 2: worrying_1 abt_0 dear_0 rmb_0 eat_0 panadol_1 drink_0 water_0 sleep_1 early_0 #PB#RE 
-Topic 0: nx_0 week_0 ba_1 monday_0 thursday_0 ba_1 #PB#RE 
-Topic 0: wah_0 lao_1 eh_1 bad_1 #PB#RE 
-Topic 4: woah_0 ppl_0 falling_1 sick_0 pls_0 good_1 care_0 scared_1 germs_1 #PB#PO 
-Topic 4: scariest_1 thing_1 distance_0 they'll_1 miss_0 forget_1 #PB#RT 
-Topic 0: good_0 call_0 kk_0 #PB#RE 
-Topic 0: scour_1 internet_0 scholarships_1 #PB#RE 
-Topic 4: #spotfixing_1 butt_0 guilty_0 conspiracy_1 cheat_0 accept_1 corrupt_0 payments_1 asif_0 guilty_0 conspiracy_1 cheat_0 #PB#RT 
-Topic 3: neil_1 based_1 malaysia_1 #PB#RE 
+Topic 23: 研究_1 显示_1 普通人_1 大脑_1 额叶_1 颞_1 叶_1 显_0 差异_1 闭_1 症_1 专_1 才_1 额_1 叶_1 颞_1 叶_1 表现_1 形式_1 趋于_1 相同_1 普通人_1 大脑_1 区域_1 激活_1 基因_1 不一样_0 闭_1 症_1 患者_1 大脑_1 基因_1 表达_0 模式_1 相同_1 #PB#CO 
+Topic 0: 能否_1 进入_1 催眠_1 状态_1 取决于_1 暗示_1 性_1 高低_0 催眠_1 存在_1 根本_1 相信_1 催眠_1 而且_1 百般_1 抵触_1 话_1 很难_1 催眠_1 #PB#CO 
+Topic 11: 自然_1 欣赏_1 社会_1 活动_1 色彩_1 客观_1 人们_1 刺激_1 象征_1 主观_1 反应_1 行为_1 色彩_1 心理_1 透过_1 视觉_1 知觉_1 感情_1 记忆_1 思想_1 意志_1 象征_1 反应_1 变化_1 极为_1 复杂_1 色彩_1 应用_1 重视_1 因果_1 关系_1 色彩_1 经验_1 积累_1 变成_1 色彩_1 心理_1 规范_1 受到_1 刺激_1 产生_1 反应_1 色彩_1 心理_1 探讨_1 内容_1 #PB#AC 
+Topic 26: 话_1 吸引_1 兴趣_1 信_1 毕竟_1 科学_1 依据_1 网上_1 流传_1 东西_1 甄别_1 #PB#IN 
+Topic 7: 知识_0 列_1 提纲_1 整体_1 把握_1 好_1 切身_1 情况_1 周围_0 环境_1 结合_1 起来_1 好_1 #PB#CO 
+Topic 26: 生活_1 状态_1 精神_1 撞_1 状态_1 不大_1 对劲_1 学会_1 即时_1 去_1 分析_1 发生_1 事情_1 心理_1 行为_0 变化_0 不要_1 味_1 去_1 压抑_0 保持_1 好_1 心态_1 才_1 重要_1 实现_0 大多数_0 心理_1 问题_0 不要_1 直_1 直_1 盯_1 心理_1 问题_1 心态_1 摆_1 正_1 不要_1 心理_1 负担_1 事情_1 往往_1 想象_1 复杂_1 难堪_1 #PB#CO 
+Topic 26: 可能_1 不够_1 自信_1 当然_1 性格_1 因素_1 可能_1 #PB#CO 
+Topic 28: 马克思主义_1 主义_0 哲学_1 原理_0 百分_1 百_1 正确_1 而且_1 好多_1 事情_1 马哲来_1 解释_0 么多_1 观点_1 分歧_1 具体_1 问题_1 具体_1 分析_1 #PB#IN 
+Topic 26: 精神_1 胜利_1 法_0 更_1 自我_1 暗示_1 心理_1 安慰_1 观察_1 偏差_1 关系_1 #PB#IN 
+Topic 2: 有时_1 遇见_1 熟悉_1 朋友_1 话_0 嘴边_1 居然_1 忘_1 对方_1 名字_1 原理_0 个体_1 学习_1 刺激_1 给予_1 编码_1 处理_1 编码_1 形_1 码_1 声_1 码_1 意_1 码_1 文字_1 人物_1 语文_1 学习_1 短期_1 记忆_1 编码_1 声_1 码_1 为主_1 长期_1 记忆_1 编码_1 意_1 码_1 为主_1 分析_1 熟悉_1 同学_1 意_1 码_1 建立_1 直接_1 联结_1 象_1 最初_1 认识_1 需_1 精力_1 放在_1 形_1 码_1 记忆_1 直接_1 脑海_1 潜意识_1 反映_0 出_0 性格_0 相符_1 词_1 譬如_1 乐观_0 开朗_1 内_1 忧郁_1 意_1 码_1 此时_1 声_1 码_1 解码_1 无法进行_1 声_1 码_1 无法_1 意_1 码_1 形_1 码_1 建立_1 联结_1 自然_1 出_0 对方_0 姓名_1 男孩_1 追_1 女孩_1 久_1 女孩_1 睡觉_1 喊_1 完了_1 记得_1 长_1 样子_1 室友_1 便_0 坏_1 坏_1 笑_1 完了_1 爱_1 分析_1 女孩_1 慢慢_0 接纳_1 男孩_1 便_1 注意力_0 集中_1 意_1 码_1 编码_0 编入_1 长期_1 记忆_1 此时_1 女孩_1 更_0 思考_1 意_1 码_1 相关_1 品_1 气质_0 性格_1 忽视_1 形_1 码_1 检索_1 出现_1 一时_1 记得_1 相貌_1 现象_1 平时_1 经常_1 一时_1 刻_1 记得_1 爸爸_1 妈妈_1 男友_1 长相_0 熟悉_1 更_1 关心_1 个人_1 魅力_1 意_1 码_1 形_1 码_1 刻骨铭心_1 爱情_1 伤害_0 记_1 感情_1 记忆_1 模糊_1 不复存在_1 原理_1 长期_1 记忆_1 可能_1 遗忘_1 找到_0 恰当_1 检索_1 方式_1 动机_1 性_1 遗忘_1 针对性_1 失_1 忆_1 弗洛伊德_1 精神_1 分析_1 分析_1 回忆_1 痛苦_1 经验_1 回到_1 痛苦_1 避免_1 痛苦_0 感受_1 记忆_1 复_1 现_1 加以_1 压抑_0 意识_0 愉快_0 经验_1 刻意_1 施加_1 压力_1 压抑_1 潜意识_1 之中_1 大脑_1 保护_1 机制_0 记忆_1 痛苦_1 才_0 忘记_1 遗忘_1 记忆_1 深_1 海_1 打捞_1 出来_1 痛不欲生_1 精神_1 分析_1 解释_1 个人_1 生活_1 重大_0 灾害_1 压力_1 可能_1 导致_1 失_1 忆_1 症_1 之外_1 个人_1 心理_1 冲突_1 形成_1 失_1 忆_1 症_1 原因_1 诸如_1 个人_0 情绪_1 内在_0 冲动_0 欲望_1 个人_1 理性_0 接受_1 两_1 冲突_1 可能_1 形成_1 遗忘_1 #PB#AC 
+Topic 26: 会不会_1 记住_1 记不住_1 剧_1 自卫_1 不得已_1 杀_1 别人_1 女孩_1 不知道_1 件_1 事情_1 现实_1 生活_0 会不会_1 类似_1 情况_1 难道是_1 选择性_1 失_1 忆_1 #PB#CO 
+Topic 26: 认为_1 自我_1 暗示_1 作用_1 切_0 不可_1 过多_1 自我_1 暗示_1 反而_1 心理_1 压力_0 增大_0 成功_1 流行_1 成功_1 人士_1 宣讲_1 时间_1 内_1 行为_0 产生_1 刺激_0 作用_1 到底_1 会不会_1 三_0 分钟_0 热情_1 不得而知_1 学会_1 控制_1 情绪_1 句_1 话_1 心_1 脆弱_1 好好_1 去_1 哄_1 #PB#IN 
+Topic 26: 紧张_1 害怕_1 本身_1 面试_1 难免_1 紧张_1 怕_1 蛇_1 俄_1 心理_1 暗示_1 学会_1 调节_1 心理_1 恐惧_0 不要_1 心理_1 暗示_1 #PB#IN 
+Topic 7: 左撇子_1 少数_1 现象_1 嫩_1 说明_1 左撇子_1 聪明_1 试想_1 教育_1 左手_1 写字_1 变_1 更加_1 聪明_1 家长_0 的确_1 培养_0 孩子_1 左手_1 动手_1 能力_1 #PB#IN 
+Topic 22: 人们_1 表情_1 内心_0 感受_1 表达_1 对方_1 人们_1 不同_1 表情_1 之间_0 表情_1 脸部_1 泄露_1 出_1 信息_1 微_1 表情_1 短_1 持续_1 秒_1 下意识_1 表情_1 可能_1 持续_1 一瞬间_1 烦人_1 特性_0 容易_1 暴露_1 情绪_1 面部_1 表情_1 持续_1 时间_1 极_0 短_1 表情_1 闪_1 而且_1 表达_1 相反_1 情绪_1 #PB#AC 
+Topic 1: 分_1 缺乏_1 性_1 成长_1 性_1 #PB#CO 
+Topic 28: 适当_0 正确_1 自我_1 效能_1 感_1 有利于_0 将要_1 进行_1 行为_1 #PB#CO 
+Topic 9: 超_1 遵循_1 完美_1 原则_1 要求_1 更_1 目标_1 克_1 内省_1 自我_1 基础_1 完善_0 努力_1 实现_1 超_1 #PB#CO 
+Topic 10: 说谎_1 童话_1 故事_1 匹_1 诺_1 曹_1 说谎_1 鼻子_1 长_1 寸_1 童话_1 毕竟_1 童话_1 当真_1 现代_1 科学_1 证实_1 说谎_1 生理_1 的确_1 发生_1 变化_1 肉眼_1 观察_1 出现_1 抓_1 耳_1 挠_1 腮_1 腿脚_1 抖动_1 系列_1 不自然_1 人体_1 动作_0 生理_1 变化_1 易_0 察觉_1 呼吸_1 速率_1 血_1 容量_1 异常_1 出现_1 呼吸_1 抑制_0 屏息_1 脉搏_1 加快_0 血压_1 升高_1 血_1 输出_0 量_1 增加_0 成分_1 变化_1 导致_1 面部_1 颈_1 皮肤_1 明显_1 苍白_1 发红_1 皮_1 汗腺_1 分泌_1 增加_1 导致_1 皮肤_1 出_1 汗_1 双_1 眼_0 之间_1 嘴唇_1 出_1 汗_1 手指_1 手掌_1 出_1 汗_1 明显_1 眼睛_1 瞳孔_1 放大_1 胃_1 收缩_1 消化_1 液_1 分泌_1 异常_1 导致_1 嘴_1 舌_1 唇_1 乾燥_1 肌肉_0 紧张_0 颤抖_1 导致_1 说话_1 结巴_0 生理_1 参量_1 植物_1 神经系统_1 支配_0 一般_1 意识_0 控制_1 自主_0 运动_1 外界_1 刺激_1 出现_1 系列_1 条件反射_1 现象_0 逃_1 测_1 谎_1 仪_1 眼睛_1 测_1 谎_1 专家_1 介绍_0 测_1 谎_1 一般_1 三_1 测定_1 生理_1 变化_1 脉搏_1 呼吸_1 皮肤_1 电阻_1 简称_1 皮_1 电_1 皮_1 电_1 敏感_1 测_1 谎_1 通常_0 情况_1 出卖_1 秘密_1 全国_1 不少_1 城市_1 测_1 谎_1 仪_1 引入_1 公安_1 司法_1 界_1 #PB#AC 
+Topic 16: 动物_1 复杂_1 动物_1 母性_1 驱动_1 人类_1 更_1 直接_1 #PB#CO 
+Topic 23: 抑郁症_1 表现_1 单_1 次_1 反复_1 多次_0 抑郁_1 发作_1 以下_1 抑郁_1 发作_1 表现_1 心境_1 低落_1 表现_1 显_1 持久_1 情感_0 低落_1 抑郁_1 悲观_1 轻_1 闷闷不乐_1 无_1 愉快_1 感_1 兴趣_0 减煺_1 重_1 痛不欲生_1 悲观_1 绝望_1 度日如年_1 生_1 死_1 典型_1 患者_1 抑郁_1 心境_1 晨_1 重_1 夜_1 轻_1 节律_1 变化_0 心境_1 低落_1 基础_0 患者_1 出现_0 自我_1 评价_1 降低_0 产生_1 无用_1 感_1 无望_1 感_1 无助_1 感_1 无_1 价值_1 感_1 常_1 伴有_1 自责_1 罪_1 严重_1 出现_1 罪恶_1 妄想_1 疑_1 病_1 妄想_1 部分_1 患者_1 出现_1 幻觉_1 思维_1 迟缓_1 患者_1 思维_1 联想_1 速度_1 缓慢_1 反应_1 迟钝_1 思路_1 闭塞_1 自觉_0 脑子_1 好像_1 生_1 锈_1 机器_1 脑子_1 涂_1 层_1 糨糊_1 一样_1 临床_1 主动_0 言语_0 减少_1 语速_1 明显_0 减慢_1 声音_1 低沉_1 答_1 困难_1 严重_1 交流_1 无法_1 顺利_1 进行_1 意志_1 活动_1 减煺_1 患者_1 意志_1 活动_1 呈_1 显_1 持久_1 抑制_1 临床_1 表现_1 行为_1 缓慢_1 生活_1 被动_1 疏懒_1 愿_1 周围_1 接触_1 交往_1 常_1 独_1 坐_1 一旁_1 整日_1 卧床_1 闭_1 独居_1 疏远_1 亲友_1 回避_0 社交_1 严重_1 吃_1 生理_1 个人_1 卫生_1 不顾_1 蓬头垢面_1 不修边幅_1 发展_1 语_0 动_0 食_0 称为_1 抑郁_1 性_1 木_1 僵_1 仔细_1 精神_1 检查_1 患者_1 仍_1 流露_1 痛苦_1 抑郁_1 情绪_1 伴_1 焦虑_1 患者_1 坐立不安_1 手_1 指_1 抓_1 握_1 搓_1 手_1 顿_1 足_1 踱_1 踱_1 去_1 症状_1 严重_1 患者_1 常_1 伴_1 消极_1 自杀_1 观念_0 行为_1 消极_1 悲观_1 思想_1 自责_1 罪_1 缺乏_1 自信心_1 萌发_1 绝望_0 念头_0 认为_0 结束_1 生命_1 解脱_0 活_1 世上_0 多余_1 自杀_1 企图_1 发展_1 自杀_1 行为_1 抑郁症_1 危险_1 症状_1 应_1 提高_0 警惕_1 认知_1 功能_1 损害_1 研究_1 认为_1 抑郁症_1 患者_1 存在_1 认知_1 功能_1 损害_1 表现_1 近_0 记忆力_1 下降_1 注意力_0 障碍_1 反应_1 时间_1 延长_1 警觉性_1 增高_1 抽象_0 思维_1 能力_1 差_1 学习_1 困难_1 语言_1 流畅_1 性_1 差_1 空间_1 知觉_1 眼_0 手_1 协调_0 思维_1 灵活性_1 能力_1 减煺_1 认知_1 功能_1 损害_1 导致_1 患者_1 社会_1 功能_1 障碍_1 而且_1 影响_1 患者_1 远期_1 预后_1 躯体_1 症状_1 睡眠_1 障碍_1 乏力_1 食欲_1 减煺_1 体重_1 下降_1 便秘_1 身体_0 部位_1 疼痛_1 性欲_1 减煺_1 阳痿_1 闭经_1 躯体_1 不适_1 体_1 诉_1 脏器_1 恶心_1 呕吐_1 心慌_1 胸_1 闷_1 出_1 汗_1 自主_1 神经_1 功能_1 失调_0 症状_1 常见_1 病_1 躯体_1 疾病_1 主_1 诉_1 通常_1 加重_1 睡眠_1 障碍_1 表现_1 早_1 醒_1 一般_1 平时_0 早_1 醒_1 醒_1 入睡_1 抑郁_1 发作_1 特征_1 性_1 意义_1 表现_1 入睡_1 困难_0 睡眠_1 深_1 少数_1 患者_1 表现_1 睡眠_1 体重_1 减轻_1 食欲_1 减煺_1 不一定_0 比例_0 少数_1 患者_1 出现_1 食欲_1 增强_1 体重_1 增加_1 #PB#AC 
+Topic 2: 恋爱_1 角度_1 来说_1 爱情_1 观_1 不同_1 决定_0 人们_0 更_1 愿意_1 同性_1 异性_1 恋爱_1 信奉_1 柏拉图_1 爱情_1 理论_1 坚信_1 同性_1 间_0 存在_1 真正_0 爱情_1 异性_1 之间_0 存在_1 无非_1 性_1 生育_1 #PB#CO 
+Topic 6: 第二_1 题_1 撤销_1 减弱_1 糖果_1 刺激_1 增加_1 哭_1 概率_1 #PB#CO 
+Topic 26: 调整_1 心态_1 咯_1 心态_1 重要_1 毕竟_1 情绪_1 不能_1 情绪_1 牵_1 哈哈哈_1 #PB#CO 
+Topic 2: 情绪_1 主宰_1 行为_1 毕竟_1 情绪_1 #PB#CO 
+Topic 23: 游_1 睡眠_1 自行_1 床_1 行动_1 床_1 睡眠_1 怪异_1 现象_1 现象_1 称为_1 梦游_1 文_0 述_1 脑_1 波_1 图_1 记录_1 梦游_1 患者_1 脑_1 波_1 正_1 显示_1 睡眠_1 阶段_1 阶段_1 显示_1 正值_1 沉睡_1 阶段_1 沉睡_1 阶段_1 做梦_1 梦游_1 事实上_1 做梦_1 无关_1 梦游_1 儿童_1 年龄_1 岁_1 之间_1 梦游_1 床_1 行动_1 期间_1 仍_1 沉睡_1 状态_1 大多数_1 梦游_1 睡醒_1 夜间_1 行动_1 一无所知_1 少部分_1 记忆_1 清晰_1 不敢确定_1 梦游_1 做梦_1 #PB#AC 
+Topic 26: 认为_1 情绪_1 着实_1 释放_1 高兴_1 悲伤_1 憋_1 不好_1 #PB#CO 
+Topic 14: 五行_1 学说_1 认为_0 金_1 木_1 土_1 水_1 火_1 顺序_1 依次_1 胜_1 相克_1 悲_1 属_1 肺_1 金_1 怒_1 属_1 肝_1 木_1 思_1 属_1 脾_1 土_1 恐_1 属_1 肾_1 水_1 喜_1 属_1 心火_1 情_1 志_1 胜_1 治疗_1 原理_0 依据_1 五行_1 胜_1 制约_0 关系_1 情_1 志_1 去_1 纠正_1 相应_1 胜_1 情_1 志_1 有效_1 治疗_1 情_1 志_1 产生_1 疾病_1 形成_1 悲_1 胜_1 怒_1 怒_1 胜_1 思_1 思_1 胜_1 恐_1 恐_1 胜_1 喜_1 喜_1 胜_1 悲_1 情_1 志_1 胜_1 心理_1 疗法_1 #PB#AC 
+Topic 26: 别人_1 催眠_1 好玩_0 额_1 真正_1 失眠_0 话_1 害怕_1 心理_1 控制_1 愿意_1 #PB#CO 
+Topic 7: 商业_1 电影_1 毕竟_1 虚构_1 夸大_1 成分_0 催眠_1 心理学_1 的确_1 确_1 存在_1 #PB#IN 
+Topic 13: 日_1 思_1 夜_1 梦_1 梦_1 恰好_1 愿_1 #PB#CO 
+Topic 7: 哈哈哈_1 作文_1 #PB#IN 
+Topic 4: 进化_1 心理学_1 家_0 神经_1 生物学家_1 激素_1 研究者_1 试图_1 重新_1 解答_1 爱情_1 人类_1 摆脱_1 蒙昧_1 状态_1 探索_1 古老_1 问题_1 人类_1 进化史_1 激素_1 作用_1 机理_1 研究_0 透彻_1 愈发_1 认识_0 性欲_1 恋爱_0 伴侣_1 关系_0 并非_1 源自_1 神_1 祗_1 安排_1 取决于_1 点燃_1 激情_1 火_1 生物_1 程序_0 人类_1 爱情_1 态度_0 基因_1 激素_1 严格_1 控制_0 祖先_1 原始_0 繁殖_1 冲动_0 至今_1 仍_1 深刻_0 左右_1 人类_0 思维_1 行动_1 择偶_1 吃醋_1 外遇_1 专家_1 无意识_1 进化_1 力量_1 无处不在_1 疯狂_1 举动_1 唯一_1 目标_1 基因_1 传_1 后代_1 #PB#AC 
+Topic 21: 智力_1 创造力_1 之间_0 简单_0 线性_1 关系_1 智力_1 创造力_1 必要条件_1 充分_1 条件_1 #PB#CO 
+Topic 8: 流体_1 智力_1 属于_1 人类_1 基本_1 能力_1 先天_1 遗传_1 因素_1 影响_1 教育_1 文化_1 影响_1 较少_0 流体_1 智力_1 发展_1 年龄_1 密切_1 关系_1 一般_1 岁_1 流体_1 智力_1 发展_1 达到_1 顶峰_1 岁_1 年龄_1 增长_1 降低_1 流体_1 智力_1 特征_1 熟悉_1 事物_1 迅速_1 准确_1 反应_1 判断_1 间_1 关系_1 机器_1 久_0 变_1 好使_1 一样_1 #PB#AC 
+Topic 17: 智力_1 测验_1 题目_1 智慧_1 结晶_1 而且_0 比较_1 聪明_1 #PB#CO 
+Topic 26: 片段_1 重复_1 记不住_1 梦_0 到底_1 #PB#IN 
+Topic 23: 精神_1 分裂_1 症_1 组_1 病因_1 未_1 明_0 重_1 性_1 精神病_1 青壮年_1 缓慢_1 亚_0 急性_1 病_1 临床_1 往往_1 表现_1 症状_1 各异_1 综合征_1 感_1 知觉_1 思维_1 情感_0 行为_1 多方面_1 障碍_1 精神_1 活动_1 协调_1 患者_1 一般_1 意识_1 清楚_1 智能_1 基本_1 正常_1 部分_0 患者_1 疾病_1 过程_1 出现_1 认知_1 功能_1 损害_1 病程_1 一般_1 延_1 呈_1 反复_1 发作_1 加重_1 恶化_1 部分_0 患者_1 出现_1 衰煺_1 精神_1 残疾_1 患者_1 治疗_1 保持_0 痊愈_1 基本_1 痊愈_1 状态_1 #PB#AC 
+Topic 8: 大多数_0 人格_1 障碍_1 心理_1 治疗_1 顿悟_1 疗法_1 行为_1 疗法_1 进一步_1 分为_0 许多_1 不同_1 类型_0 短程_1 动力_0 性_1 心理_1 治疗_1 直接_1 增进_1 适应性_1 短程_1 心理_1 治疗_1 进行_1 比较_1 两_1 治疗_1 方法_1 效果_0 均_1 优于_1 未_1 加_1 乾预_1 状况_1 二者_1 之间_1 无_1 差异_0 心理_1 治疗_1 取得_1 良好_0 短期_0 疗效_1 疗效_1 评定_1 基于_1 伤_1 影响_1 并非_1 直接_1 人格_1 障碍_1 评定_1 长期_1 追踪_1 随访_1 强迫_1 型_1 人格_1 障碍_1 心理_1 治疗_1 反应_1 令人满意_1 缺乏_1 技巧_0 治疗_1 可能_1 导致_1 病人_1 过度_1 病态_1 内省_1 病人_1 状况_0 恶化_1 并非_1 好转_1 治疗_1 应_1 指向_1 避免_1 增加_1 病人_1 困扰_1 处境_1 发展_1 更_1 好_1 应付_1 应_1 激_1 处境_1 方式_1 病人_1 常_1 合并_0 抑郁_1 性_1 障碍_1 期间_1 寻求_1 帮助_1 必要_1 认清_1 治疗_1 共_1 病_1 状况_1 药物_1 治疗_1 服用_1 抗_1 抑郁_1 药物_1 早期_1 报告_0 抗_1 精神病_0 药物_1 治疗_0 有效_1 研究_1 证实_1 结论_1 进一步_1 研究_0 证明_0 #PB#AC 
+Topic 10: 敏感_1 流畅_1 灵活_1 定义_1 独创_1 洞察_1 #PB#CO 
+Topic 0: 正_1 强化_1 #PB#CO 
+Topic 6: 增加_1 哭_1 概率_1 #PB#CO 
+Topic 28: 消煺_1 #PB#IN 
+Topic 0: 绝对值_1 相关性_1 愈_1 #PB#CO 
+Topic 12: 归因于_1 能力_1 #PB#CO 
+Topic 25: 近_1 朱_1 赤_1 近墨者黑_1 古有孟_1 母_1 三_0 家长_1 孩子_1 好_1 学校_1 苦恼_1 万分_1 其实_1 寻找_1 好_1 学习_1 环境_1 成长_1 环境_1 环境_1 成长_1 重要_1 意义_1 #PB#CO 
+Topic 25: 近_1 朱_1 赤_1 近墨者黑_1 其实_1 然_1 出_1 淤泥_1 染_1 濯_1 清_1 涟_1 妖_0 不管怎样_1 环境_1 成长_1 非常_1 重要_1 当然_1 自律_1 重要_1 #PB#IN 
+Topic 26: 方向_1 相反_1 相对_0 两_0 心理_1 因素_1 过程_1 希望_1 成功_1 害怕_1 失败_1 往往_0 两_1 心理_1 力量_1 作用_1 #PB#AC 
+Topic 26: 自我_1 暗示_1 心情_1 不好_1 吃_1 东西_1 导致_1 厌食_1 地步_1 #PB#CO 
+Topic 6: 关键_0 行为_1 发生_1 呈现_1 增强_0 刺激_1 撤销_1 减弱_1 #PB#CO 
+Topic 13: 胆汁_1 质_1 #PB#CO 
+Topic 10: 所谓_1 非理性_1 信念_1 通俗_1 讲_1 挫折_1 合理_1 认识_1 来自_1 美国_0 临床_1 心理学_1 家_1 艾里斯_1 挫折_1 理论_1 挫折_1 本身_1 指_1 挫折_1 事件_1 想法_1 解释_1 评价_0 指_1 特定_1 情境_1 个体_1 情绪_0 反应_1 行为_1 理论_1 挫折_1 引起_1 挫折感_1 事情_0 本身_1 挫折_1 合理_1 认识_1 理性_1 非理性_1 大部分_0 情绪_1 困扰_1 心理_1 问题_1 来自_1 不合_1 逻辑_1 合理性_1 思考_1 合理_1 信念_1 合理_1 信念_1 导致_1 挫折感_1 产生_0 合理_1 信念_1 一般_1 三_1 特点_1 ⊙_1 绝对化_1 要求_1 常见_1 合理_1 信念_1 指_1 人们_1 意愿_1 出发点_1 事物_0 怀_1 必定_1 发生_1 必定_1 发生_1 信念_1 常_0 必须_0 词_1 在一起_1 必须_1 好_1 必须_1 才_1 ⊙_1 过分_1 概括_1 化_1 以偏概全_1 一概_1 十_1 合理_1 信念_1 过分_1 概括_1 化_1 问题_1 容易_0 走极端_1 往往_1 导致_1 合理_1 评价_1 遇_1 失败_1 便_1 认为_0 没用_1 非常_1 笨_1 不可_1 救_1 药_1 别人_1 稍_1 过失_1 认为_1 无_1 可取_1 全面_0 否定_1 持有_1 信念_1 导致_1 盲目_1 自责_1 罪_1 自卑_1 弃_1 一味_1 责备_1 外在_1 环境_0 产生_1 敌意_1 愤怒_1 不良_1 情绪_1 ⊙_1 糟糕_1 透顶_1 合理_1 信念_1 认为_1 事情_0 发生_1 必定_1 非常_1 可怕_1 非常_1 糟糕_1 非常_1 不幸_0 个体_1 信念_1 产生_1 焦虑_1 悲观_1 抑郁_0 不良_1 情绪_1 体验_0 许多_1 同学_1 考_1 焦虑_1 多数_1 持有_1 信念_1 #PB#AC 
+Topic 26: 制定_1 好_1 复习_1 计划_1 按部就班_1 不要_1 考试_1 过于_0 重要_1 施加_1 压力_1 重要_1 好好_1 复习_1 知识_1 掌握_1 考试_1 自然_1 亚历山大_1 #PB#CO 
+Topic 25: 生活_1 改变_1 烦恼_1 长期_1 解决_0 演化_1 日常_1 烦恼_1 造成_1 生活_0 压力_1 生活_1 改变_1 阶段_1 日常_1 烦恼_1 #PB#IN 
+Topic 19: 情_1 商_1 创造力_1 强_1 关联_0 性_1 研究_1 表明_1 成功_0 来自_1 情_1 商_1 情_1 商_1 更_1 具_1 创造力_1 创造力_1 往往_1 表现_1 拥有_1 类型_0 思维_1 风格_1 才_1 限制_1 条件_1 做出_0 更_0 创造性_1 成果_1 风格_1 形成_1 往往_1 非正式_1 知识_1 获得_1 情_1 商_1 创造力_1 提高_1 非正式_1 知识_1 获得_1 桥梁_1 情_1 商_1 非正式_1 知识_1 获得_0 影响_0 体现_1 情_1 商_1 坚韧_1 能力_1 承受_1 风险_1 能力_1 超越_0 自我_0 能力_1 容忍_1 模糊_1 开放_1 能力_1 培养_0 黎红梅_1 王焕清_1 #PB#AC 
+Topic 25: 人格_1 时间_1 基本上_1 恒定_1 做出_1 努力_1 发生_1 改变_1 基本_0 特征_1 首要_1 特质_1 很难_1 发生_1 改变_1 外部_0 环境_0 做出_1 相应_1 应对_1 当然_1 内部_1 人格_1 做出_1 改变_1 #PB#CO 
+Topic 26: 通俗_1 话_1 最初_0 遇到_1 问题_1 分析_1 信息_1 加工_0 #PB#CO 
+Topic 22: 努力_1 控_1 稳定_1 内在_1 #PB#CO 
+Topic 2: 取缔_1 行为_1 学习_1 新_1 行为_1 #PB#CO 
+Topic 27: 性格_1 人格_1 区别_0 #PB#CO 
+Topic 1: 熟悉_1 久_0 未_1 联系_1 见面_1 名字_1 尴尬_1 考试_1 明明_1 滚_1 瓜_1 烂熟_1 知识_0 忘_1 可能_1 时间_1 无意识_1 起来_1 情况_1 好_1 应对_1 方法_1 #PB#CO 
+Topic 25: 看待_1 弗洛伊德_1 泛_1 性_1 当代_0 性_1 教育_1 #PB#CO 
+Topic 15: 动机_1 基础_1 产生_1 动态_1 化_0 具体_1 表现_1 活动_1 积极性_1 源泉_1 动机_1 活动_1 直接_1 动力_1 具体_1 举_1 例子_1 通俗化_1 阐述_1 #PB#CO 
+Topic 11: 女性_1 心理学_1 #PB#CO 
+Topic 27: 或多或少_1 都会_1 强迫症_1 #PB#CO 
+Topic 23: 临床_1 表现_1 坚信_1 受到_1 迫害_1 欺骗_1 跟踪_1 毒_1 诽谤_1 阴谋_1 对待_1 患者_1 往往_1 变_1 极度_1 谨慎_1 处处_1 防备_1 小小的_1 轻_1 侮_1 可能_1 患者_1 放大_1 变成_1 妄想_1 核心_1 时常_1 相关_1 纳入_1 妄想_1 世界_1 迫害_1 妄想_1 症_1 提供_0 典型_1 病例_1 患_1 病症_1 患者_1 认为_0 个别_1 个别_1 团伙_1 加害_1 感到_0 痛苦_1 不堪_1 抓住_1 极为_1 脆弱_1 事实_1 充当_1 蓄意_1 谋害_1 证据_1 情绪_1 逐渐_1 蔓延_1 生活_1 迫使_1 作出_1 荒谬_1 举动_1 产生_0 杀人_1 冲动_1 类_1 病理学_1 嫉妒_1 成功_0 权利_1 爱_1 幻觉_1 坚信_1 陌生人_1 爱上_1 神秘_1 主义_1 妄想_1 #PB#AC 
+Topic 28: 轻度_1 密集_1 恐惧症_1 密集_1 东西_1 心慌_1 #PB#CO 
+Topic 25: 理解_1 弗洛伊德_1 泛_1 性_1 可能_1 民族_1 性格_1 民族_1 文化_0 #PB#CO 
+Topic 6: 心理学_1 研究_1 动物_0 行为_1 心理_1 科学_1 透过_1 别人_1 细微_1 行为_1 变化_0 窥探_1 心理_1 可能_1 心理学_1 读_1 心术_1 相通_1 地方_1 心理学_1 不同_1 读_1 心术_1 读_1 心术_1 依赖_1 心理学_1 读_1 心术_1 指_1 行为_1 主义_0 心理学_1 行为_1 推测_1 心理_1 现象_1 #PB#CO 
+Topic 14: 强迫症_1 属于_1 焦虑_1 障碍_1 类型_0 组_0 强迫_1 思维_1 强迫_1 行为_1 临床_1 表现_1 神经_0 精神_1 疾病_1 特点_1 意识_1 强迫_1 反_1 强迫_1 并存_1 毫无意义_1 违背_1 意愿_1 想法_1 冲动_1 反反复复_1 侵入_1 患者_1 日常_1 生活_1 患者_1 体验_1 想法_1 冲动_1 来源于_1 极力_0 抵抗_1 无法_1 控制_0 二者_0 强烈_1 冲突_1 感到_1 巨大_0 焦虑_0 痛苦_0 影响_1 学习_0 工作_1 人际_1 交往_1 生活_1 起居_1 近年来_1 统计_1 数据_1 提示_1 强迫症_1 发病率_1 不断_0 攀升_1 研究_0 显示_1 普通_0 人群_1 强迫症_1 终身_1 患病率_1 约_1 患者_1 岁_1 发病_1 强迫症_1 病_1 早_1 病程_1 延_1 特点_0 常_1 患者_1 社会_0 功能_1 生活_1 质量_1 造成_1 极大_1 影响_1 世界_0 卫生_1 组织_1 全球_1 疾病_1 调查_1 强迫症_1 岁_1 中青年_1 人群_1 造成_1 疾病_1 负担_1 重_1 疾病_1 患者_1 常_1 种种_1 考虑_1 病_1 初_0 未_1 及时_1 就医_1 怕_1 脏_1 反复_1 洗手_1 患者_1 可能_1 症状_1 严重_1 无法_1 正常_1 生活_1 才_1 就诊_1 病_1 初次_1 就诊_1 间_0 可能_1 相隔_1 十_1 久_0 无形中_1 增加_1 治疗_1 难度_1 应当_1 提高_0 强迫症_1 重视_1 早_1 早_1 治疗_1 #PB#AC 
+Topic 12: 学生_1 学习_1 无能为力_1 听天由命_1 方式_1 常常_0 失败_1 归因于_1 缺乏_0 能力_1 成功_1 归因于_1 偶然_1 外部_0 因素_1 解释_1 #PB#CO 
+Topic 25: 弗洛伊德_1 理论_1 争论_1 最大_1 难以_0 令_0 接受_1 观点_1 儿童_1 性欲_1 听听_1 大家_0 理论_1 观点_1 看法_1 反正_1 很难_1 理解_1 很难_1 接受_1 #PB#CO 
+Topic 29: 系统化_1 回答_0 赞_1 #PB#IN 
+Topic 6: 邪恶_1 念头_1 别人_1 某人_1 想法_1 采用_1 防御_0 机制_0 合理化_1 投射_0 啥啊_1 #PB#CO 
+Topic 27: 经常_1 绝望_1 心境_1 性格_1 产生_1 映_1 #PB#CO 
+Topic 25: 经常_0 绝望_1 心境_1 性格_1 产生_1 影响_1 #PB#CO 
+Topic 22: 在场_1 个体_1 完成_1 项_1 任务_1 工作_1 绩效_1 提高_1 现象_1 指_1 #PB#AC 
+Topic 28: 表征_1 定势_1 功能_1 固_1 认知_1 结构_1 #PB#AC 
+Topic 23: 举_1 例_1 #PB#CO 
+Topic 16: 反映_1 行为_1 心理_1 关系_1 心理学_1 解释_1 说法_1 #PB#CO 
+Topic 19: 经常_1 睡醒_1 再次_1 马上_1 进去_1 睡眠_1 延续_1 梦_1 #PB#CO 
+Topic 29: 当前_0 发生_0 行为_1 场景_0 熟悉_1 可能_1 梦_1 出现_1 认为_1 上辈子_1 经历_0 现象_1 心理学_1 解释_1 人类_1 潜意识_1 作祟_1 #PB#CO 
+Topic 21: 岁_1 小孩子_1 培养_1 创造力_1 #PB#CO 
+Topic 1: 动机_1 指_1 引起_1 个体_1 活动_1 维持_1 活动_1 目标_1 进行_1 内在_1 动力_1 平常_1 作案_1 动机_1 理解_1 目的_1 目的_1 动机_1 区别_1 是怎样_0 理解_1 动机_1 #PB#ACCO 
+Topic 26: 这部_1 剧_1 讲_1 同性恋_1 认为_1 尊重_1 同性恋_1 尊重_1 #PB#CO 
+Topic 25: 泛_1 性_1 过分_1 强调_0 性_0 生命_1 本质_0 身心_0 活动_1 地位_0 观点_0 理论_1 泛_1 性_1 性欲_1 视为_1 高于_1 切_1 决定_1 根本_1 因素_1 弗洛伊德_1 认为_1 力_1 包含_1 爱_1 字_1 本能_1 力量_1 性_1 本能_1 力量_1 必须_1 获得_1 施展_1 受到_1 压抑_1 导致_0 精神_0 疾病_1 性_1 本能_1 力量_1 转移_1 升华_1 人类_1 社会_1 发展_1 文化_1 创造_1 性_1 本能_1 乔装打扮_1 外_1 发泄_1 方式_1 弗洛伊德_1 泛_1 性_1 性欲_1 决定_1 主义_1 人世间_1 社会关系_0 各类_1 社团_1 教_1 军队_1 更_1 不用说_1 亲属_1 关系_0 均_1 认为_1 力_1 纽带_1 联结_0 起来_1 无限_0 泛_1 化_1 性_1 活动_1 人际关系_1 社会_1 活动_1 均_1 性_1 化_1 归宿_1 #PB#ACCO 

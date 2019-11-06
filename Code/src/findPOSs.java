@@ -5,8 +5,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import common.FileUtil;
-import common.JC;
+import Common1.FileUtil;
+import Common1.JC;
 
 public class findPOSs {
 

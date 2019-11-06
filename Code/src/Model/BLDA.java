@@ -5,29 +5,95 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import common.FileUtil;
-import common.JC;
-import common.Stopwords;
+import Common1.FileUtil;
+import Common1.JC;
+import Common1.Stopwords;
+import jxl.*;
+import jxl.read.biff.BiffException;
+import DataPro.SplitSentence;
 
+
+/**  
+* @ClassName: BLDA  
+* @Description: TODO(model main function)  
+* @author danny  
+* @date 2019-06-09
+*    
+*/  
 public class BLDA {
 
 	// public static ArrayList<String> stopWords;
-
 	// public static HashSet<Integer> stopList;
+	/**
+	 * @throws ParseException 
+	 * @throws BiffException   
+	* @Title: main  
+	* @Description: TODO(model main function)  
+	* @param @param args
+	* @param @throws IOException    ����  
+	* @return void    ��������  
+	* @throws  
+	*/  
+	/**
+	 * @throws BiffException   
+	* @Title: main  
+	* @Description: TODO(这里用一句话描述这个方法的作用)  
+	* @param @param args
+	* @param @throws IOException
+	* @param @throws BiffException
+	* @param @throws ParseException    参数  
+	* @return void    返回类型  
+	* @throws  
+	*/  
+	public static void main(String args[]) throws IOException,  ParseException, BiffException {
+		/*assign the file path to the variable*/
+		String dir = System.getProperty("user.dir");//get program path
+		String filelist = dir + "/data/test/filelist-test.txt";// get fileList
+		String dataDir = dir + "/data/test/TMinput/";//program + inputPath
+		String tempOutDir = dir + "/data/test/TMoutput/";// programPath + OutputDir
+		String modelParas = dir + "/data/test/modelParameters.txt";//ProgramPath + modelparasPath
+		//source "D:\\study\\20180630_CCNU_ResearchGroup\\data\\201402PsychologicalBasis\\forum"
+		//savePath "D:\study\20180630_CCNU_ResearchGroup\Project\BLDA\Code\data\test\TMinput"
+		//fileList "D:\study\20180630_CCNU_ResearchGroup\Project\BLDA\Code\data\test\.filelist-test.txt"
+		String savePath ="D:\\OneDrive\\Research\\Code\\BLDA\\Code\\data\\test\\TMinput\\";
+		String fileList ="D:\\OneDrive\\Research\\Code\\BLDA\\Code\\data\\test\\filelist-test.txt";
+		//splitSentenceSourcePath
+		String source ="D:\\OneDrive\\Research\\DataSet\\201402PsychologicalBasis\\forum";
+		String fileListChoose ="D:\\OneDrive\\Research\\Code\\BLDA\\Code\\data\\test\\filelist-testChoose.txt";
+		String fileListEnglish ="D:\\OneDrive\\Research\\Code\\BLDA\\Code\\data\\test\\filelist-testChooseEnglish.txt";
+		
+		/*choose files source : 1 is read original chinese*/
+		//2 is choose chinese words
+		//3 is English data
+		int choose = 1;
+		if(choose == 1) {
+			
+			SplitSentence.initCoursesTxts(savePath, fileList, source);
 
-	public static void main(String args[]) throws IOException {
-		String dir = System.getProperty("user.dir");
-		String filelist = dir + "/data/test/filelist-test.txt";
-		String dataDir = dir + "/data/test/TMinput/";
-		String tempOutDir = dir + "/data/test/TMoutput/";
-		String modelParas = dir + "/data/test/modelParameters.txt";
-
+		}
+			
+		if(choose == 2)  {
+			filelist = fileListChoose ;
+			dataDir = "D:\\study\\20180630_CCNU_ResearchGroup\\Project\\BLDA\\Code\\data\\test\\TMinput\\chooseChinese\\";
+		}
+		if(choose == 3)
+			filelist = fileListEnglish;
+		if(choose == 4)  {
+			filelist = fileListChoose ;
+			dataDir = "D:\\study\\20180630_CCNU_ResearchGroup\\Project\\BLDA\\Code\\data\\test\\TMinput\\chooseChinese\\";
+		}
+/*Read Setting file to modelSerrings*/
+		
 		ArrayList<String> modelSettings = new ArrayList<String>();
 		getModelPara(modelParas, modelSettings);
+		// read fileList to modelSetting
 		int T = Integer.parseInt(modelSettings.get(0));
 		float alpha = Float.parseFloat(modelSettings.get(1));
 		float beta = Float.parseFloat(modelSettings.get(2));
@@ -45,20 +111,30 @@ public class BLDA {
 
 		// stopList = new HashSet<Integer> ();
 
+		
+		/*initial read post maps*/
 		ArrayList<String> files = new ArrayList<String>();
+		//Read the list of files to array list
 		FileUtil.readLines(filelist, files);
-
+		// HashMap 是一个散列表，它存储的内容是键值对(key-value)映射
+		// wordMap
 		HashMap<String, Integer> wordMap = new HashMap<String, Integer>();
+		//itemMap
 		HashMap<String, Integer> itemMap = new HashMap<String, Integer>();
+		// docs 范型集合
 		ArrayList<Document> docs = new ArrayList<Document>();
+		//uniWordMap
 		ArrayList<String> uniWordMap = new ArrayList<String>();
+		//uniItemMap Item is behavior
 		ArrayList<String> uniItemMap = new ArrayList<String>();
+		//
 		ArrayList<Integer> uniItemMapCounts = new ArrayList<Integer>();
 		ArrayList<Integer> uniWordMapCounts = new ArrayList<Integer>();
 
 		// 1. read docs
 		new Stopwords();
 		for (int i = 0; i < files.size(); i++) {
+			//new Document 括号内是对象构造器
 			Document doc = new Document(dataDir + files.get(i), files.get(i),
 					wordMap, itemMap, uniWordMap, uniItemMap, uniWordMapCounts,
 					uniItemMapCounts);
@@ -67,18 +143,19 @@ public class BLDA {
 
 		// ComUtil.printHash(wordMap);
 		if (uniWordMap.size() != wordMap.size()) {
-			System.out.println(wordMap.size());
-			System.out.println(uniWordMap.size());
+			System.out.println("wordMap"+wordMap.size());
+			System.out.println("uniWordMap"+uniWordMap.size());
 			System.err
 					.println("uniqword size is not the same as the hashmap size!");
 			System.exit(0);
 		}
 
-		// output wordMap and itemMap
+		// output wordMap and itemMap,hash map to txt
 		FileUtil.writeLines(tempOutDir + "wordMap.txt", wordMap);
 		FileUtil.writeLines(tempOutDir + "itemMap.txt", itemMap);
 		FileUtil.writeLines(tempOutDir + "uniWordMap.txt", uniWordMap);
 		FileUtil.writeLines(tempOutDir + "uniItemMap.txt", uniItemMap);
+		//sorted uniwordMap Counts
 		FileUtil.writeLinesSorted(tempOutDir + "uniWordMapCounts.txt",
 				uniWordMap, uniWordMapCounts, 0);
 		FileUtil.writeLinesSorted(tempOutDir + "uniItemMapCounts.txt",
@@ -96,6 +173,8 @@ public class BLDA {
 		ArrayList<Float> etas = new ArrayList<Float>();
 		setGammas(etas);
 
+		// 循环几个备选的eta值
+		
 		for (int setting = 0; setting < etas.size(); setting++) {
 			alpha = etas.get(setting);
 			String outputDir = tempOutDir + "Eta_" + alpha + "/";
@@ -120,9 +199,10 @@ public class BLDA {
 			// get uniWordMap and uniItemMap
 			FileUtil.readLines(tempOutDir + "uniWordMap.txt", uniWordMap);
 			FileUtil.readLines(tempOutDir + "uniItemMap.txt", uniItemMap);
+			
 			System.out.println("saving the model...");
 			try {
-				model.saveModel(outputDir, uniWordMap, uniItemMap);
+				model.saveModel(docs,outputDir, uniWordMap, uniItemMap,files);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -138,6 +218,13 @@ public class BLDA {
 		System.out.println("done");
 	}
 
+	/**  
+	* @Title: setGammas  
+	* @Description: TODO 设置eta列表的值，gama列表的值  
+	* @param @param gammas    参数  
+	* @return void    返回类型  
+	* @throws  
+	*/  
 	private static void setGammas(ArrayList<Float> gammas) {
 		gammas.add(0.1f);
 		gammas.add(0.01f);
@@ -243,4 +330,5 @@ public class BLDA {
 			reader.close();
 		System.exit(0);
 	}
+	
 }

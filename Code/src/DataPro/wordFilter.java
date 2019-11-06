@@ -2,7 +2,8 @@ package DataPro;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import common.FileUtil;
+
+import Common1.FileUtil;
 
 public class wordFilter {
 

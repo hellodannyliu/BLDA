@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import common.ComUtil;
-import common.FileUtil;
-import common.Stopwords;
+import Common1.ComUtil;
+import Common1.FileUtil;
+import Common1.Stopwords;
 
 import edu.mit.jwi.item.Word;
 
@@ -35,7 +35,7 @@ public class Document {
 
 	private int [][] docWords;
 	
-	private int [][] docItems;
+	public int [][] docItems;
 	
 	//public HashMap<String, Integer> wordMap;
 	
@@ -53,8 +53,9 @@ public class Document {
 		int numberItem = itemMap.size();
 		ArrayList<String> datalines = new ArrayList<String>();
 		Pattern MY_PATTERN = Pattern.compile(" *#PB#.*\\w+.*");
+		//read doc to dataLines which inlude many lines:  time + content
 		FileUtil.readLines(Dir, datalines);
-		
+		//docWords matix, lines and wordCount
 		this.docWords = new int[datalines.size()][];
 		this.docItems = new int[datalines.size()][];
 		ArrayList<Integer> words = new ArrayList<Integer>();
@@ -63,15 +64,20 @@ public class Document {
 		for(int lineNo = 0; lineNo < datalines.size(); lineNo++) {
 			//System.out.println(datalines.get(lineNo));
 			//line = datalines.get(lineNo).replaceAll(":", " : ");
+			// line is a line
 			line = datalines.get(lineNo);
 			
 			ArrayList<String> tokens = new ArrayList<String>();
+			
 			ComUtil.tokenize(line, tokens);
 			for(int i = 0; i < tokens.size(); i++) {
-				// RT is also stop word // keep stop words force them to background words
-				if(!Stopwords.isStopword(tokens.get(i)) && !isNoisy(tokens.get(i))) {
+				// RT is also stop word 
+				// keep stop words force them to background words
+				if(!Stopwords.isStopword(tokens.get(i)) && !HasDigit(tokens.get(i))) {
+//				if(!Stopwords.isStopword(tokens.get(i)) && !isNoisy(tokens.get(i))) {
 //				if(!isNoisy(tokens.get(i))) {
 					if(tokens.get(i).contains("#PB#")) {
+						//marcher #PB#CO and so on,then if do not exit ,add else item++
 						Matcher m = MY_PATTERN.matcher(tokens.get(i));
 						//if (m.matches() && tokens.get(i).length() > 18 && tokens.get(i).startsWith("http://t.co")) {
 						if (true) {
@@ -108,6 +114,7 @@ public class Document {
 			
 			ComUtil.uniqe(items);
 			docWords[lineNo] = new int[words.size()];
+			//add word number to doc[line][counts]
 			for(int w = 0; w < words.size(); w++)
 				docWords[lineNo][w] = words.get(w);
 			docItems[lineNo] = new int[items.size()];
@@ -318,6 +325,7 @@ public class Document {
 	}
 
 	private boolean isNoisy(String string) {
+		//return true;
 		// at least contains a word
 		//Pattern MY_PATTERN = Pattern.compile(".*[a-zA-Z#@]+.*");
 		Pattern MY_PATTERN = Pattern.compile(".*[a-zA-Z]+.*");
@@ -345,5 +353,14 @@ public class Document {
 	public void setDocItems(int[][] docItems) {
 		this.docItems = docItems;
 	}
-
+	// 判断一个字符串是否含有数字
+	public boolean HasDigit(String content) {
+			    boolean flag = false;
+			    Pattern p = Pattern.compile(".*\\d+.*");
+			    Matcher m = p.matcher(content);
+			    if (m.matches()) {
+			        flag = true;
+			    }
+			    return flag;
+	}
 }

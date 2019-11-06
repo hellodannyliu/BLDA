@@ -1,4 +1,4 @@
-topics: 5
+topics: 30
 alpha: 10
 beta: 0.01
 betab: 0.01

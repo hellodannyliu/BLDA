@@ -13,6 +13,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -26,9 +27,15 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-import common.ComUtil;
-import common.FileUtil;
-import common.MatrixUtil;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+
+import Common1.ComUtil;
+import Common1.FileUtil;
+import Common1.MatrixUtil;
 
 public class Model {
 	// document related parameters
@@ -168,9 +175,9 @@ public class Model {
 		// assign topics
 		Z = new int[U][];
 		for (int i = 0; i < U; i++) {
-			Z[i] = new int[docs.get(i).getDocWords().length];
-			for (int j = 0; j < Z[i].length; j++) {
-				Z[i][j] = (int) Math.floor(Math.random() * T);
+			Z[i] = new int[docs.get(i).getDocWords().length];//在z二维数组后面添加不同长度的一维数组
+			for (int j = 0; j < Z[i].length; j++) {//循环次数为二维数组，后半部分的长度
+				Z[i][j] = (int) Math.floor(Math.random() * T);//math.floor 一个表示小于或等于指定数字的最大整数的数字。random随机0-1中间的数
 				if (Z[i][j] < 0)
 					Z[i][j] = 0;
 				if (Z[i][j] > T - 1)
@@ -291,6 +298,7 @@ public class Model {
 				for (int n = 0; n < docs.get(u).getDocWords().length; n++) {
 					SampleTopic(docs.get(u).getDocWords()[n], docs.get(u)
 							.getDocItems()[n], u, n);
+//					System.out.println("294 U is ："+u);
 					for (int l = 0; l < docs.get(u).getDocWords()[n].length; l++)
 						SampleLabel(docs.get(u).getDocWords()[n][l], u, n, l);
 				}
@@ -377,7 +385,7 @@ public class Model {
 		}
 		return res;
 	}
-
+//得到多项式分布
 	public void computeModelParameter() {
 		System.out.println("computing model parameters...");
 		for (int w = 0; w < V; w++) {
@@ -607,7 +615,7 @@ public class Model {
 		System.out.println("NUT: ");
 		MatrixUtil.printArray(NUT);
 	}
-
+// 公式2.9
 	private boolean SampleTopic(int[] words, int[] items, int u, int n) {
 		int topic = Z[u][n];
 		// get words and their count in [u,n]
@@ -663,8 +671,24 @@ public class Model {
 							* ((double) (tempvalue + beta + numC) / ((double) sumRow
 									+ V * beta + wcount));
 					wcount++;
+					if(p2==0) {
+						/*System.out.println("p2 is ："+p2);
+						System.out.println("numC is ："+numC);
+						System.out.println("NTW[i][tempUniqueWords.get(w)] tempvalue is ："+NTW[i][tempUniqueWords.get(w)]);
+						System.out.println("beta is ："+beta);
+						System.out.println("sumRow is ："+sumRow);
+						System.out.println("SNTW[i] is ："+SNTW[i]);
+						System.out.println("tempCounts.get(w) is ："+tempCounts.get(w));
+						System.out.println("wcount is ："+wcount);
+						//System.exit(0);//*/
+						//p2=0.0000000000000000000000000000000000000000001;
+						p2 = 4.9E-310;
+						//System.out.println("p2 is ："+p2);
+						}
 				}
+				
 			}
+
 			// assume items only appear once
 			double p3 = 1.0D;
 			// double sumRow = MatrixUtil.sumRow(NTI, i);
@@ -676,17 +700,25 @@ public class Model {
 								+ M * alpha + j));
 			}
 			pt[i] = p1 * p2 * p3;
+			//System.out.println("P1 P2 P3 is ："+ p1 +'-'+ p2 +'-'+ p3);
 		}
-
+		
 		// cummulate multinomial parameters
+		System.out.println("T is ："+T);
+		for(int i=0;i< T;i++)System.out.println("pt"+i+ "is" +pt[i]);
 		int sample = ComUtil.sample(pt, T);
+		System.out.println("sample is ："+sample);
+		System.out.println("u and n ,U and N："+u+'-'+n+' '+U);
 		assert (sample >= 0 && sample < T) : "sample value error:" + sample;
-
+	//	if(sample>=T) sample=19;
 		Z[u][n] = sample;
 		topic = sample;
-
+		System.out.println("688 Users number is ："+U);
+		System.out.println("689 topic is ："+topic);
 		// update NTW[T][W](y=1) NTI[T][M] NUT[U][T] in {u,n}
 		NUT[u][topic]++;
+		System.out.println("690 Users number is ："+U);
+		System.out.println("691 topic is ："+topic);
 		SNUT[u]++;
 		for (int w1 = 0; w1 < tempUniqueWords.size(); w1++) {
 			NTW[topic][tempUniqueWords.get(w1)] += tempCounts.get(w1);
@@ -801,6 +833,7 @@ public class Model {
 	public void outTaggedDoc(ArrayList<Document> docs,
 			ArrayList<String> uniWordMap, ArrayList<String> uniItemMap,
 			String outputDir) {
+		
 		ArrayList<String> datalines = new ArrayList<String>();
 		for (int i = 0; i < docs.size(); i++) {
 			for (int j = 0; j < docs.get(i).getDocWords().length; j++) {
@@ -853,91 +886,35 @@ public class Model {
 		writer.flush();
 		writer.close();
 	}
+// 
 
-	public boolean saveModel(String output) throws Exception {
-		BufferedWriter writer = new BufferedWriter(new FileWriter(new File(
-				output + "model.vPhiB")));
-		ModelComFunc.writeData(vPhiB, writer);
-		writer.close();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.phi")));
-		ModelComFunc.writeData(phi, writer);
-		writer.close();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.theta")));
-		ModelComFunc.writeData(theta, writer);
-		writer.close();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model-topic-words.txt")));
-		for (int t = 0; t < vPhi.length; t++) {
-			ModelComFunc.writeData(vPhi[t], writer);
-		}
-		writer.close();
-		
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.vPhi")));
-		ModelComFunc.writeData(vPhi, writer);
-		writer.close();
-		
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.psi")));
-		ModelComFunc.writeData(psi, writer);
-		writer.close();
-		return true;
-	}
 	
-	public boolean saveModel(String output, ArrayList<String> uniWordMap,
-			ArrayList<String> uniItemMap) throws Exception {
-		BufferedWriter writer = new BufferedWriter(new FileWriter(new File(
-				output + "model.vPhiB")));
-		ArrayList<Integer> rankList = new ArrayList<Integer>();
-		ComUtil.getTop(vPhiB, rankList, 100);
-		ModelComFunc.writeData(vPhiB, uniWordMap, rankList, writer, "");
-		writer.close();
-		rankList.clear();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.phi")));
-		ModelComFunc.writeData(phi, writer);
-		writer.close();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.theta")));
-		ModelComFunc.writeData(theta, writer);
-		writer.close();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model-topic-words.txt")));
-		for (int t = 0; t < vPhi.length; t++) {
-			ComUtil.getTop(vPhi[t], rankList, 20);
-			writer.write("Topic " + t + "\n");
-			ModelComFunc.writeData(vPhi[t], uniWordMap, rankList, writer, "\t");
-			rankList.clear();
-		}
-		writer.close();
+	public boolean saveModel(ArrayList<Document> docs, String output, ArrayList<String> uniWordMap,
+			ArrayList<String> uniItemMap,ArrayList<String> files) throws Exception {
 		
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.vPhi")));
-		ModelComFunc.writeData(vPhi, writer);
-		writer.close();
-
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model-topic-behavior.txt")));
-		for (int t = 0; t < psi.length; t++) {
-			ComUtil.getTop(psi[t], rankList, 10);
-			writer.write("Topic " + t + "\n");
-			ModelComFunc.writeData(psi[t], uniItemMap, rankList, writer, "\t");
-			rankList.clear();
-		}
-		writer.close();
+		Workbook result = new HSSFWorkbook();
+		Sheet sheet1 = result.createSheet("vPhiB-backGroundWords");
+		ModelComFunc.writeDatavPhiB(vPhiB, uniWordMap,sheet1);
 		
-		writer = new BufferedWriter(new FileWriter(new File(output
-				+ "model.psi")));
-		ModelComFunc.writeData(psi, writer);
-		writer.close();
+		Sheet sheet2 = result.createSheet("SwiftPhi");
+		ModelComFunc.writeDataSwiftPhi(phi,sheet2);
+		
+		Sheet sheet3 = result.createSheet("theta-author-topic");
+		ModelComFunc.writeDataTheta(theta,sheet3,files);
+		
+		Sheet sheet4 = result.createSheet("vPhi-topic-words");
+		ModelComFunc.writeDatavPhi(vPhi, uniWordMap,sheet4);
+
+		Sheet sheet5 = result.createSheet("topic-behavior");
+		ModelComFunc.writeDataPsi(psi, uniItemMap,sheet5);
+		
+		Sheet sheet6 = result.createSheet("Author-behavior");
+		ModelComFunc.writeDataAuthorBehavior(docs, uniItemMap,sheet6,files);
+		
+		try (OutputStream fileOut = new FileOutputStream(output + "result.xls")) {
+			result .write(fileOut);
+		}
+		
 		return true;
 	}
 
@@ -961,7 +938,7 @@ public class Model {
 							+ " ";
 				}
 				for (int k2 = 0; k2 < docs.get(i).getDocItems()[j].length; k2++) {
-					tmpline += uniItems.get(docs.get(i).getDocItems()[j][k2])
+					tmpline += uniItems.get(docs.get(i).getDocItems()[j][k2]);
 				}
 				datalines.add(tmpline);
 			}
@@ -970,5 +947,7 @@ public class Model {
 			datalines.clear();
 		}
 	}
+
+
 
 }

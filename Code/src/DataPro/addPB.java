@@ -10,8 +10,8 @@ import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import common.FileUtil;
-import common.JC;
+import Common1.FileUtil;
+import Common1.JC;
 
 public class addPB {
 
